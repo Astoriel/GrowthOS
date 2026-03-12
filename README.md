@@ -12,6 +12,21 @@ GrowthOS is an open-source MCP analytics server that connects your AI assistant 
 
 ---
 
+## Screenshots
+
+| CAC & LTV by Channel | Funnel Analysis |
+|---|---|
+| ![CAC/LTV](docs/screenshots/demo_cac_ltv.png) | ![Funnel](docs/screenshots/demo_funnel.png) |
+
+| Churn Segmentation | Weekly Growth Summary |
+|---|---|
+| ![Churn](docs/screenshots/demo_churn.png) | ![Growth Summary](docs/screenshots/demo_growth.png) |
+
+**REST API (Swagger UI)**
+![Swagger](docs/screenshots/swagger_with_data.png)
+
+---
+
 ## What GrowthOS Does
 
 GrowthOS sits between your AI assistant and your data. It exposes **49 MCP tools** that your AI can call to run real analysis — funnel breakdowns, CAC/LTV calculations, cohort retention matrices, anomaly detection, SQL queries, and more — then formats results with benchmark comparisons so you get context, not just numbers.
