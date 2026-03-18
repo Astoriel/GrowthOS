@@ -33,8 +33,8 @@ GrowthOS sits between your AI assistant and your data. It exposes **49 MCP tools
 
 ```
 Claude / Cursor / any MCP client
-        │
-        ▼
+             │
+             ▼
 ┌──────────────────────────────┐
 │        GrowthOS MCP Server   │
 │  49 tools · DuckDB · SQL     │
@@ -43,7 +43,7 @@ Claude / Cursor / any MCP client
              │
    ┌──────────────────────┐
    │   Your data sources  │
-   │  CSV · PostgreSQL     │
+   │  CSV · PostgreSQL    │
    │  Stripe · Meta Ads   │
    │  Google Ads · HubSpot│
    │  Mixpanel · Amplitude│
