@@ -29,17 +29,15 @@ GrowthOS is an open-source MCP analytics server that connects your AI assistant 
 
 ## What GrowthOS Does
 
-GrowthOS sits between your AI assistant and your data. It exposes **49 MCP tools** that your AI can call to run real analysis — funnel breakdowns, CAC/LTV calculations, cohort retention matrices, anomaly detection, SQL queries, and more — then formats results with benchmark comparisons so you get context, not just numbers.
-
 ```
 Claude / Cursor / any MCP client
              │
              ▼
 ┌──────────────────────────────┐
-│        GrowthOS MCP Server   │
-│  49 tools · DuckDB · SQL     │
-│  Semantic layer · Benchmarks │
-└────────────┬─────────────────┘
+│        GrowthOS MCP Server   │                GrowthOS sits between your AI assistant and your data
+│  49 tools · DuckDB · SQL     │                It exposes **49 MCP tools** that your AI can call to run real analysis — funnel breakdowns, CAC/LTV calculations, cohort retention matrices,
+│  Semantic layer · Benchmarks │                anomaly detection, SQL queries, and more — then formats results with benchmark comparisons so you get context, 
+└────────────┬─────────────────┘                not just numbers.
              │
    ┌──────────────────────┐
    │   Your data sources  │
