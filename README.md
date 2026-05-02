@@ -2,12 +2,16 @@
 
 **Answer growth questions in plain English. No SQL required.**
 
+## Project status
+
+Experimental beta. Snapshot date: 2025-12-15. The strongest current evaluation path is weekly growth review, funnel diagnosis, and channel efficiency review. See [STATUS.md](STATUS.md) and [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md).
+
 GrowthOS is an open-source MCP analytics server that connects your AI assistant (Claude, Cursor, or any MCP-compatible client) directly to your marketing and product data. Ask questions about funnels, retention, CAC, churn, anomalies, channel performance, forecasts, Shapley attribution, and narrative summaries — and get structured, benchmark-referenced answers in seconds.
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Tests: 219 passing](https://img.shields.io/badge/tests-219%20passing-brightgreen)](#test-suite)
-[![MCP tools: 49](https://img.shields.io/badge/MCP%20tools-49-blue)](#tool-reference)
+[![Status: experimental beta](https://img.shields.io/badge/status-experimental%20beta-orange)](STATUS.md)
+[![MCP workflows](https://img.shields.io/badge/MCP-workflows-blue)](#tool-reference)
 [![DuckDB](https://img.shields.io/badge/powered%20by-DuckDB-yellow)](https://duckdb.org)
 
 ---
